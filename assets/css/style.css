@@ -337,6 +337,7 @@ section {
   font-weight: 700;
   font-size: 26px;
   color: #173b6c;
+  align-items: flex-start;
 }
 
 .about .content ul {
@@ -1125,6 +1126,12 @@ section {
   flex: 0 0 auto;
   width: 50%;
   margin-left: 50px;
+}
+
+.col-lg-7 {
+  padding-top: 60px;
+  flex: 0 0 auto;
+  width: 58.33333333%;
 }
 
 [data-aos^="fade"][data-aos^="fade"].aos-animate {
